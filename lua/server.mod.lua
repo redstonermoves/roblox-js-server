@@ -118,7 +118,7 @@ return function (domain, newKey, group)
     error('Key is required and must be a string greater than length 0')
   end
 
-  base = 'http://'..domain
+  base = 'https://roblox-bot-server-.herokuapp.com/'..domain
   key = newKey
 
   if group then
